@@ -1,0 +1,63 @@
+.bmi-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bmi-left, .bmi-right {
+    flex: 1;
+}
+
+.bmi-left h2 {
+    color: #355592;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.bmi-left p {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.bmi-form input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.bmi-right {
+    position: relative;
+}
+
+.bmi-result {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #020202;
+    font-size: 20px;
+}
+
+.bmi-chart img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+}
+
+.bmi-arrow {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    color: #f4a024;
+    font-size: 30px;    
+    transform: translateX(-50%);
+    transition: left 0.3s ease;
+    display: none;
+}
