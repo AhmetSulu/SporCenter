@@ -2,6 +2,11 @@
 
 A responsive, modern website for a fitness center featuring class schedules, BMI calculator, trainer profiles, and an e-commerce section.
 
+
+## Live Site
+- https://vermillion-mooncake-262fa1.netlify.app/
+
+
 ## Features
 
 - Responsive navigation with smooth scrolling
