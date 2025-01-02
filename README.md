@@ -61,7 +61,10 @@ main.css
 - Safari (latest)
 - Edge (latest)
 
-## Known Issues
+## License
 
-- Font size in mobile navigation needs adjustment
-- BMI calculator arrow positioning needs refinement on small screens
+This project is licensed under the MIT License.
+
+## Contact
+
+For any questions or support, please email ahmet.sulu1993@gmail.com
